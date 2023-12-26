@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="khan.css">
+    <title>Be Mine</title>
+    <style>
+        body {
+            background-image: url('wallpaper.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="original-screen">
+        <img src="bear.jpg" alt="White Bear" class="bear-image">
+        <h1 class="question">Will you be mine?</h1>
+        <div class="buttons">
+            <button id="yes-button" class="yes-button" onclick="showYesScreen()">Yes</button>
+            <button id="no-button" class="no-button" onclick="moveNoButton()">No</button>
+        </div>
+    </div>
+
+    <div class="yes-screen" id="yes-screen">
+        <!-- Add this inside the <div class="yes-screen"> -->
+        <img src="Milk And Mocha Cute GIF - Milk And Mocha Cute Hug - Discover & Share GIFs.gif" alt="Bear Image GIF"
+            class="bear-image-gif">
+        <p>"❤🕊Imagining a future with you is the most enchanting vision. I can't wait to create countless memories and
+            share a life filled with love and laughter❤🕊"</p>
+        <div class="balloons">
+            <div class="balloon" style="background-image: url('balloon_1.png'); animation-delay: 1s;"></div>
+            <div class="balloon" style="background-image: url('balloon_2.png'); animation-delay: 1.25s;"></div>
+            <div class="balloon" style="background-image: url('balloon_3.png'); animation-delay: 1s;"></div>
+            <div class="balloon" style="background-image: url('balloon_4.png'); animation-delay: 1.25s;"></div>
+            <div class="balloon" style="background-image: url('balloon_1.png'); animation-delay: 1s;"></div>
+            <div class="balloon" style="background-image: url('balloon_2.png'); animation-delay: 1.25s;"></div>
+            <div class="balloon" style="background-image: url('balloon_3.png'); animation-delay: 1s;"></div>
+            <div class="balloon" style="background-image: url('balloon_4.png'); animation-delay: 1.25s;"></div>
+            <div class="balloon" style="background-image: url('balloon_1.png'); animation-delay: 1s;"></div>
+            <div class="balloon" style="background-image: url('balloon_2.png'); animation-delay: 1.25s;"></div>
+            <div class="balloon" style="background-image: url('balloon_3.png'); animation-delay: 1s;"></div>
+            <div class="balloon" style="background-image: url('balloon_4.png'); animation-delay: 1.25s;"></div>
+        </div>
+    </div>
+
+    <script src="wk.js"></script>
+</body>
+
+</html>
